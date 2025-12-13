@@ -12,7 +12,7 @@ export default function Resume() {
                 <p className="text-secondary mb-3">Madison, WI</p>
 
                 <div className="d-grid gap-2">
-                  {/* ✅ 正确的下载方式 */}
+                  {/* 正确的下载方式 */}
                   <a
                     className="btn btn-primary"
                     href="/file/Yufei_Xia.pdf"
@@ -56,7 +56,7 @@ export default function Resume() {
           <div className="col-12 col-lg-8">
             <h2 className="section-title">Bio</h2>
             <p className="text-secondary">
-              I’m a Cartography & GIS graduate student at UW–Madison, interested in
+              I'm a Cartography & GIS graduate student at UW-Madison, interested in
               interactive web mapping, spatial databases, and building data
               pipelines for decision-making.
             </p>
@@ -67,10 +67,10 @@ export default function Resume() {
               <div className="card-body">
                 <div className="d-flex flex-wrap justify-content-between gap-2">
                   <div className="fw-semibold">
-                    University of Wisconsin–Madison
+                    University of Wisconsin-Madison
                   </div>
                   <div className="text-secondary small">
-                    Jan 2025 – Sept 2026
+                    Jan 2025 - Dec 2026
                   </div>
                 </div>
                 <div className="text-secondary">
@@ -86,7 +86,7 @@ export default function Resume() {
                     University of Washington
                   </div>
                   <div className="text-secondary small">
-                    Sept 2019 – Jun 2023
+                    Sept 2019 - Jun 2023
                   </div>
                 </div>
                 <div className="text-secondary">
