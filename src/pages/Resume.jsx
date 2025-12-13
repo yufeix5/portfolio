@@ -15,7 +15,7 @@ export default function Resume() {
                   {/* 正确的下载方式 */}
                   <a
                     className="btn btn-primary"
-                    href="/file/Yufei_Xia.pdf"
+                    href={`${import.meta.env.BASE_URL}file/Yufei_Xia.pdf`}
                   >
                     View Resume (PDF)
                   </a>
