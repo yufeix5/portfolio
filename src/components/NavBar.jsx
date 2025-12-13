@@ -6,7 +6,7 @@ export default function NavBar() {
       <div className="container">
         {/* Brand */}
         <NavLink className="navbar-brand d-flex flex-column" to="/">
-          <span className="brand-title">Yufei’s GIS Projects</span>
+          <span className="brand-title">Yufei's GIS Projects</span>
           <span className="brand-subtitle">
             An online portfolio of cartography, GIS, and data work
           </span>
@@ -50,7 +50,7 @@ export default function NavBar() {
             <li className="nav-item">
               <a
                 className="nav-link resume-link"
-                href="/file/Yufei_Xia.pdf"
+                href={`${import.meta.env.BASE_URL}file/Yufei_Xia.pdf`}
                 download
               >
                 Download Resume

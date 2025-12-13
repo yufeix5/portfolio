@@ -217,7 +217,7 @@ The goal was to maintain usability for mapping while translating an illustrative
     links: [
       {
         label: "View PDF (Hi-res)",
-        url: "/file/US_library_visit.pdf"
+        url: `${import.meta.env.BASE_URL}file/US_library_visit.pdf`
       }
     ],
     tools: ["Thematic mapping", "Color & legend design"],
@@ -241,7 +241,7 @@ The goal was to maintain usability for mapping while translating an illustrative
     links: [
       {
         label: "View PDF (Hi-res)",
-        url: "/file/china_west_ethinic.pdf"
+        url: `${import.meta.env.BASE_URL}file/china_west_ethinic.pdf`
       }
     ],
     tools: ["Thematic cartography", "Visual hierarchy"],
@@ -264,7 +264,7 @@ The goal was to maintain usability for mapping while translating an illustrative
     links: [
       {
         label: "View PDF (Hi-res)",
-        url: "/file/africa_map.pdf"
+        url: `${import.meta.env.BASE_URL}file/africa_map.pdf`
       }
     ],
     tools: ["Cartographic design", "Labeling & annotation"],
@@ -287,7 +287,7 @@ The goal was to maintain usability for mapping while translating an illustrative
     links: [
       {
         label: "View PDF (Hi-res)",
-        url: "/file/Washington_cascade_mountains.pdf"
+        url: `${import.meta.env.BASE_URL}file/Washington_cascade_mountains.pdf`
       }
     ],
     tools: ["ArcGIS Pro / QGIS", "Cartographic design"],
