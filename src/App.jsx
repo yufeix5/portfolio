@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <div className="d-flex flex-column min-vh-100">
       {/* 永远显示 */}
+      <ScrollToTop />
       <NavBar />
 
       {/* 路由切换的只有 main 内容 */}
