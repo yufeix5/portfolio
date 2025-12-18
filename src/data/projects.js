@@ -17,6 +17,9 @@ import usLibrary from "../assets/img/US_library_visit.jpg";
 import chinaWestEthnic from "../assets/img/china_west_ethinic.jpg";
 
 import storymapCover from "../assets/img/storymap.jpg";
+import louisianaCover from "../assets/img/louisiana_cover.jpg"; 
+import la1 from "../assets/img/Cancer_alley.jpg";
+import la2 from "../assets/img/folk.jpg";
 
 import ukiyoInspo from "../assets/img/custom-map-style/Inspiration_board.jpg";
 import ukiyoStyle from "../assets/img/custom-map-style/map-style.png";
@@ -76,6 +79,50 @@ export const projects = [
     `
   },
   // ---- StoryMap ----
+  // ---- StoryMap: Southern Gothic Louisiana ----
+  {
+    slug: "where-land-sinks-and-myths-rise",
+    title: "Where Land Sinks and Myths Rise",
+    year: "2025",
+    type: "StoryMap",
+    role: "Cartographer & Author",
+    images: [la1, la2, louisianaCover],
+    description:
+      "A digital exploration of how environmental decay, industrialism, and cultural trauma converge to create the unique Southern Gothic landscape of Southern Louisiana.",
+    cover: louisianaCover,
+    featured: true,
+    links: [
+      {
+        label: "View StoryMap",
+        url: "https://storymaps.arcgis.com/stories/a5f1c5eb44ef44ddb9d8adcbbc429a0d"
+      }
+    ],
+    tools: ["ArcGIS StoryMaps", "ArcGIS Pro", "Socio-economic Data Analysis"],
+    writeup: `
+      Southern Louisiana is a landscape defined by a slow-motion tragedy where the ground itself is the 
+      protagonist. For many, the haunting marshes and rusted refineries of this region are merely 
+      the backdrop for fictional dread in works like True Detective or Norco. However, as a 
+      researcher, I wanted to explore how these "Southern Gothic" aesthetics are not just creative choices, 
+      but visceral reflections of an ecological and social reality. 
+
+      In this region, the uncanny is a daily experience. The physical foundation of the state is 
+      literally washing away, with over 2,000 square miles of wetlands dissolved into the Gulf since the 
+      1930s. This geographical instability mirrors a deeper, more personal erosion—a 
+      structural plight where poverty rates of 18.9% and systemic educational neglect leave communities 
+      feeling as though they are in a state of "slow submergence." 
+
+      This project utilizes narrative cartography to peel back the layers of the delta. By 
+      layering maps of land loss with industrial heat maps of "Cancer Alley" and the tangled spiritual 
+      geographies of Voodoo and Creole traditions, I sought to illustrate the collision of forces at the 
+      edge of the sea. The design utilizes high-contrast, dark-mode visuals to 
+      capture an atmosphere that is, in every sense, "heavy, suspended, and sinking."
+
+      Ultimately, this work is about a "humanistic regression to the sea"—a primordial return that 
+      challenges our modern illusions of control. It is a terrain where land sinks and myths 
+      rise, proving that while our physical ground may be ephemeral, the stories born from its decay 
+      remain as enduring as the tide.
+    `
+  },
   {
     slug: "h1b-visa-dilemma-storymap",
     title: "The H-1B Visa Dilemma",
